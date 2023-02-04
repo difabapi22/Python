@@ -1,0 +1,10 @@
+continuar = True
+
+while continuar == True: 
+    print ("Ingrese su edad en años para calcular a cuantas semanas corresponde. Introduzca 0 para terminar.") 
+    edad = int (input ("... ")) 
+    if edad != 0: 
+        semanas = 52 * edad 
+        print ("son " + str(semanas) + " semanas \n") 
+    else: 
+        continuar = False
